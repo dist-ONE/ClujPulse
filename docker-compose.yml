@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  osrm-bus:
+    image: osrm/osrm-backend:latest
+    container_name: osrm-bus-backend
+    restart: always
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data/osrm:/data
+    command: "osrm-routed --algorithm mld /data/cluj.osrm --cors"
