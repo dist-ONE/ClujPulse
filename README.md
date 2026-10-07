@@ -22,7 +22,7 @@ Instead of dealing with clunky static schedules, this platform continuously cons
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/yourusername/ClujPulse.git](https://github.com/yourusername/ClujPulse.git)
+   git clone https://github.com/yourusername/ClujPulse.git
    cd ClujPulse
    ```
 
